@@ -1,7 +1,7 @@
 # LaravelAWS
 
 
-## Useage
+## Usage
 
 ```
 composer require rayjun/laravel-aws
