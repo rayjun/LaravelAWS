@@ -5,7 +5,8 @@
 
 ```
 composer require rayjun/laravel-aws
-
+```
+```
 php artisan vendor:publish 
 ```
 
@@ -13,11 +14,11 @@ php artisan vendor:publish
 
 use Rayjun\AWS\Lambda\Client;
 
- $result = $client->request("GET", "/dev/",["user"=> "1"]);
+$result = $client->request("GET", "/dev/",["user"=> "1"]);
  
- echo $result->getBody()->getContents()
+echo $result->getBody()->getContents()
 
-```php
+```
 
 
 
