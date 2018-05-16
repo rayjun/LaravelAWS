@@ -1,7 +1,7 @@
 {
     "name": "rayjun/laravel-aws",
     "description": "laravel tools for aws services",
-    "type": "project",
+    "type": "library",
     "require": {
         "illuminate/config": "5.*",
         "illuminate/filesystem": "5.*",
