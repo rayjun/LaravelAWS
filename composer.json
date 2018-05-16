@@ -27,5 +27,6 @@
         "psr-4": {
             "Rayjun\\AWS\\": "tests"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
