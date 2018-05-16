@@ -1,0 +1,32 @@
+{
+    "name": "rayjun/laravel-aws",
+    "description": "laravel tools for aws services",
+    "type": "project",
+    "require": {
+        "illuminate/config": "5.*",
+        "illuminate/filesystem": "5.*",
+        "illuminate/support": "5.*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rayjun",
+            "email": "leijun19930412@sina.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rayjun\\AWS\\":"src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rayjun\\AWS\\": "tests"
+        }
+    },
+    "minimum-stability": "stable"
+}
