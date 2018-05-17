@@ -6,6 +6,14 @@
 ```
 composer require rayjun/laravel-aws
 ```
+
+```
+//app.php
+
+Rayjun\AWS\AWSServiceProvider::class,
+
+```
+
 ```
 php artisan vendor:publish 
 ```
